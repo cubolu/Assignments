@@ -1,7 +1,5 @@
 <?php
 
-#JSN:xlukac09
-
   # jsn.php     Assigment in IPP course
   # Author:     Jakub Lukac
   # E-mail:     xlukac09@stud.fit.vutbr.cz

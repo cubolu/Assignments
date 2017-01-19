@@ -1,7 +1,5 @@
 <?php
 
-#JSN:xlukac09
-
   # jsn.php     Assigment in IPP course
   # Author:     Jakub Lukac
   # E-mail:     xlukac09@stud.fit.vutbr.cz
@@ -85,8 +83,8 @@
     $help_msg .= " -l                  constants true, false, null will be converted to elements <true/>," . PHP_EOL;
     $help_msg .= "                     <false/>, <null/>" . PHP_EOL;
     $help_msg .= " -c                  substitute special characters with entity references" . PHP_EOL;
-    $help_msg .= " --array-name=name   set tag name to array type, implicit value is \"array\"" . PHP_EOL;
-    $help_msg .= " --item-name=name    set tag name to items in array type, implicit value is \"item\"" . PHP_EOL;
+    $help_msg .= " --array-name=name   set tag \"name\" to array type, implicit value is \"array\"" . PHP_EOL;
+    $help_msg .= " --item-name=name    set tag \"name\" to items in array type, implicit value is \"item\"" . PHP_EOL;
     $help_msg .= " -a, --array-size    add size as atribute to array type" . PHP_EOL;
     $help_msg .= " -t, --index-items   to each element in array add its index as atribute" . PHP_EOL;
     $help_msg .= " --start=n           set starting index of -t argument" . PHP_EOL;
