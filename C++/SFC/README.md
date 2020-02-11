@@ -1,5 +1,5 @@
 ## Soft Computing project
-### Boltzmann Machine
+### Restricted Boltzmann Machine implementation
 
 Initialize project by running ./run.sh
 - or alternatively if cmake is available by running ./run.sh cmake
