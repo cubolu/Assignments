@@ -1,0 +1,193 @@
+/* This is a single-line comment */
+
+/* Fonts - https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css?family=Roboto:700|Rubik:400,500,900');
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+
+  background: #FEFEFE;
+
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  color: #101010;
+}
+
+/* Header */
+header {
+  padding: 2em;
+
+  border-bottom: 1px solid #cccccc;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 900;
+  margin: 0;
+}
+
+header nav,
+footer ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+header nav .text {
+  font-size: 2rem;
+}
+
+/* Footer */
+footer {
+  padding: 2em;
+
+  font-size: 14px;
+  color: #515151;
+  border-top: 1px solid #cccccc;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  padding: 0 10px;
+  margin: 0;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+/* Size correction */
+span.fa-stack.fa-3x {
+  font-size:1.50em;
+  width: 36px;
+}
+
+table th {
+  font-weight: 500;
+}
+
+form .control-label {
+  font-weight: 500;
+}
+
+.content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  min-height: 75%;
+}
+
+.content-form {
+  background: #F7F7F7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product {
+  float: left;
+  padding: 0;
+}
+
+.product-price {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+
+.product-price-on-image {
+
+  /* font */
+  font-size: 3rem;
+
+  /* background gradient */
+  background: rgba(0, 0, 0, 0.4);
+  border-bottom-right-radius: 0;
+
+  /* position */
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  padding: 3px 15px;
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  transform: translate(-100%, -100%);
+}
+
+.card {
+  background-color: #FEFEFE;
+
+  align-items: center;
+
+  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+  padding: 25px;
+}
+
+.divider {
+  /*display: block;*/
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.divider > span {
+  position: relative;
+  /*display: inline-block;*/
+}
+
+.divider > span:before,
+.divider > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 100vw;
+  border-top: 2px solid;
+  border-color: #EEEEEE;
+}
+
+.divider > span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.divider > span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.fill {
+  width: 100%;
+}
+
+.badge-corner {
+  position: relative;
+  top: -20px;
+
+  background-color: #337ab7;
+}
+
+.payment-icon {
+  font-size: 3rem;
+  color: #3b3b3b;
+}
+
+.total-price {
+  font-size: 2rem;
+}
