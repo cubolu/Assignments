@@ -3,7 +3,7 @@
 
 Initialize project by running ./run.sh
 - or alternatively if cmake is available by running ./run.sh cmake
-Script will:
+- script will:
   - download data set
   - build the project
   - show usage of rbm application
